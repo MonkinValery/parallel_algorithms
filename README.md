@@ -16,3 +16,9 @@
 **Compile:** g++ task_3.cpp -o task3 -fopenmp -lpthread
 
 **Run:** OMP_NUM_THREADS={NUMBER_OF_THREADS} ./task3
+
+## Task 4
+
+**Compile:** make
+
+**Run:** OMP_NUM_THREADS={NUMBER_OF_THREADS} ./task4
