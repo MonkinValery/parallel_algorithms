@@ -32,7 +32,7 @@ int main (int argc, char *argv[])
     std::chrono::steady_clock::time_point endLinear = std::chrono::steady_clock::now(); //End
     
     // Parallel implementation
-    // In this implementation we count element(i,j) for result matrix on each thread
+    // In this implementation we count element(i,j) for result matrix on each task
     std::chrono::steady_clock::time_point beginParallel = std::chrono::steady_clock::now(); //Start
     #pragma omp parallel default(shared)
     { 
